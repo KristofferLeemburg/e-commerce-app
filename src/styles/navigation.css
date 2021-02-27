@@ -1,36 +1,32 @@
 .NavbarItems {
-  background: -webkit-gradient(linear, left top, right top, from(#2586e0), color-stop(10%), color-stop(80%, #0a7eeb));
-  background: linear-gradient(90deg, #2586e0, 10%, #0a7eeb 80%);
+  position: fixed;
+  width: 100%;
+  background: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 60px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.2rem;
+  z-index: 1;
 }
 
 .navbar-logo {
   color: #fff;
-  -ms-grid-column-align: start;
-      justify-self: start;
-  margin-left: 20px;
+  margin-left: 30px;
   cursor: pointer;
 }
 
 .nav-menu {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[5];
-      grid-template-columns: repeat(5, auto);
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   list-style: none;
-  text-align: center;
-  width: 70vw;
+  width: 130vw;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -44,7 +40,7 @@
 }
 
 .nav-link:hover {
-  color: #6cace7;
+  color: #2A4452;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -56,6 +52,7 @@
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
+    background: #2A4452 !important;
   }
   .nav-menu {
     display: -webkit-box;
@@ -75,7 +72,7 @@
     transition: all 0.5s ease;
   }
   .nav-menu.active {
-    background: #2586e0;
+    background: #2A4452;
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -89,7 +86,7 @@
     display: table;
   }
   .nav-link:hover {
-    background-color: #5ba0e0;
+    background-color: #506f80;
     border-radius: 0;
   }
   .navbar-logo {
@@ -102,7 +99,7 @@
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
+    top: -5px;
     right: 0;
     -webkit-transform: translate(-100%, 60%);
             transform: translate(-100%, 60%);

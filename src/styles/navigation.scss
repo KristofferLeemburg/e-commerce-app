@@ -1,25 +1,26 @@
 .NavbarItems{
-    background: linear-gradient(90deg, rgb(37, 134, 224), 10%, rgba(10, 126, 235, 1) 80%);
+    position: fixed;
+    width: 100%;
+    background: transparent;
     display: flex;
     height: 60px;
-    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    z-index: 1;
 }
 .navbar-logo{
     color: #fff;
-    justify-self: start; 
-    margin-left: 20px;
+    margin-left: 30px;
     cursor: pointer;
 }
 
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
     grid-gap:10px;
     list-style: none;
-    text-align: center;
-    width: 70vw;
+    // text-align: center;
+    width: 130vw;
     justify-content: end;
     margin-right: 2rem;
 }
@@ -29,17 +30,19 @@
     padding:0.5rem 1rem;
 
     &:hover{
-        color:rgb(108, 172, 231);
+        color:#2A4452;
         transition: all 0.2s ease-out;
     }
 }
 .menu-icon{
     display: none;
+    
 }
 
 @media screen and (max-width:960px){
     .NavbarItems{
         position: relative;
+        background: #2A4452!important;
     }
     .nav-menu{
         display: flex;
@@ -53,7 +56,7 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active{
-        background: rgb(37, 134, 224);
+        background: #2A4452;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -66,7 +69,7 @@
         display: table;
     }
     .nav-link:hover{
-        background-color: rgb(91, 160, 224);
+        background-color: #506f80;
         border-radius: 0;
     }
     .navbar-logo{
@@ -78,7 +81,7 @@
     .menu-icon{
         display: block;
         position: absolute;
-        top: 0;
+        top: -5px;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
