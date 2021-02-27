@@ -12,7 +12,7 @@ export default function Navigation() {
     <nav className="NavbarItems">
       <h1 className="navbar-logo">React</h1>
       <div className="menu-icon" onClick={() => setClicked((clicked) => !clicked)}>
-      {clicked ? <GiHamburgerMenu /> : <AiOutlineClose />}
+      {clicked ? <AiOutlineClose /> : <GiHamburgerMenu />}
       </div>
       <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
         {MenuItems.map((item, index) => {
@@ -25,6 +25,7 @@ export default function Navigation() {
           )
         })}
       </ul>
+    
     </nav>
   );
 }
