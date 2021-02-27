@@ -31,19 +31,25 @@ export default function Navigation() {
       backgroundColor:
        status === "top" ? "transparent" : "#2A4452"
     }}>
-      <h1 className="navbar-logo">React</h1>
+      <h1 className="navbar-logo" style={{
+      color:
+       status === "top" ? "black" : "white"
+    }}>React</h1>
       <IconContext.Provider
-      value={{ color: 'white', size: '20px' }}
+      value={{ color: 'black', size: '20px' }}
     >
       <div className="menu-icon" onClick={() => setClicked((clicked) => !clicked)}>
       {clicked ? <AiOutlineClose /> : <GiHamburgerMenu />}
       </div>
       </IconContext.Provider>
-      <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+      <ul className={clicked ? 'nav-menu active' : 'nav-menu'}  >
         {MenuItems.map((item, index) => {
           return (
-            <li key={index}>
-              <a className={item.name} href={item.url}>
+            <li key={index} >
+              <a className={item.name} href={item.url} style={{
+      color:
+       status === "top" ? "black" : "white"
+    }}>
                 {item.title}
               </a>
             </li>

@@ -9,7 +9,7 @@
     z-index: 1;
 }
 .navbar-logo{
-    color: #fff;
+    color: black;
     margin-left: 30px;
     cursor: pointer;
 }
@@ -25,12 +25,12 @@
     margin-right: 2rem;
 }
 .nav-link{
-    color: #fff;
+    color: black;
     text-decoration: none;
     padding:0.5rem 1rem;
 
     &:hover{
-        color:#2A4452;
+        color:#898d90 !important;
         transition: all 0.2s ease-out;
     }
 }

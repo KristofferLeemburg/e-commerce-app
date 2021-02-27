@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <nav className="Footer">  
-    made by Kristoffer Leemburg 
+    © 2021 Kristoffer Leemburg 
     </nav>
   );
 }
