@@ -10,7 +10,7 @@
 }
 
 .section-one-container {
-  background-color: white;
+  background-color: #f2f2f2;
   color: black;
   width: 100vw;
   height: 400px;
@@ -51,7 +51,7 @@
 }
 
 .section-three-container {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   color: white;
   width: 100vw;
   height: 500px;
@@ -68,24 +68,45 @@
 }
 
 .text-box-left {
-  background-color: lawngreen;
+  color: #007e5a;
+  background-color: white;
+  font-size: 40px;
+  font-weight: 800;
   width: 300px;
   height: 300px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 40px;
+  -webkit-box-shadow: 5px 6px #ccc;
+          box-shadow: 5px 6px #ccc;
 }
 
 .text-box-middle {
-  background-color: lawngreen;
+  color: #007e5a;
+  background-color: white;
+  font-size: 40px;
+  font-weight: 800;
   width: 300px;
   height: 300px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  -webkit-box-shadow: 5px 6px #ccc;
+          box-shadow: 5px 6px #ccc;
 }
 
 .text-box-right {
-  background-color: lawngreen;
+  color: #007e5a;
+  background-color: white;
+  font-size: 40px;
+  font-weight: 800;
   width: 300px;
   height: 300px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 80px;
+  -webkit-box-shadow: 5px 6px #ccc;
+          box-shadow: 5px 6px #ccc;
 }
 
 .shanon {
