@@ -68,10 +68,7 @@
 }
 
 .text-box-left {
-  color: #007e5a;
   background-color: white;
-  font-size: 40px;
-  font-weight: 800;
   width: 300px;
   height: 300px;
   margin-top: 20px;
@@ -81,11 +78,26 @@
           box-shadow: 5px 6px #ccc;
 }
 
-.text-box-middle {
+.text-box-left h4 {
   color: #007e5a;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.text-box-left p {
+  color: black;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.text-box-left h6 {
+  margin-left: 5px;
+  color: #007e5a;
+}
+
+.text-box-middle {
   background-color: white;
-  font-size: 40px;
-  font-weight: 800;
   width: 300px;
   height: 300px;
   margin-top: 20px;
@@ -95,11 +107,26 @@
           box-shadow: 5px 6px #ccc;
 }
 
-.text-box-right {
+.text-box-middle h4 {
   color: #007e5a;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.text-box-middle p {
+  margin-left: 5px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.text-box-middle h6 {
+  margin-left: 5px;
+  color: #007e5a;
+}
+
+.text-box-right {
   background-color: white;
-  font-size: 40px;
-  font-weight: 800;
   width: 300px;
   height: 300px;
   margin-top: 20px;
@@ -107,6 +134,24 @@
   margin-right: 80px;
   -webkit-box-shadow: 5px 6px #ccc;
           box-shadow: 5px 6px #ccc;
+}
+
+.text-box-right h4 {
+  color: #007e5a;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.text-box-right p {
+  margin-left: 5px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.text-box-right h6 {
+  margin-left: 5px;
+  color: #007e5a;
 }
 
 .shanon {

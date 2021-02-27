@@ -13,7 +13,7 @@ export default function Navigation() {
   useEffect(() => {
     document.addEventListener("scroll", (e) => {
             const scrolled = document.scrollingElement.scrollTop;
-            if (scrolled > 150) {
+            if (scrolled > 50) {
               if (status !== "transparent") {
                 setStatus("transparent");
               }
@@ -36,7 +36,7 @@ export default function Navigation() {
        status === "top" ? "black" : "white"
     }}>React</h1>
       <IconContext.Provider
-      value={{ color: 'black', size: '20px' }}
+      value={{ color: 'white', size: '20px' }}
     >
       <div className="menu-icon" onClick={() => setClicked((clicked) => !clicked)}>
       {clicked ? <AiOutlineClose /> : <GiHamburgerMenu />}
