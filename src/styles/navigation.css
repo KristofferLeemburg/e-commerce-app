@@ -1,5 +1,54 @@
 .NavbarItems {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(110, 10, 90, 0.8)), color-stop(0%), to(rgba(10, 126, 235, 0.8)));
-  background: linear-gradient(90deg, rgba(110, 10, 90, 0.8), 0%, rgba(10, 126, 235, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(10, 25, 110, 0.6)), color-stop(10%), color-stop(80%, #0a7eeb));
+  background: linear-gradient(90deg, rgba(10, 25, 110, 0.6), 10%, #0a7eeb 80%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  color: #fff;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[5];
+      grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  color: #6cace7;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+  display: none;
 }
 /*# sourceMappingURL=navigation.css.map */

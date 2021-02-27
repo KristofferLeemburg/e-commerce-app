@@ -1,14 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "../../styles/navigation.css"
 import { MenuItems } from "./MenuItems";
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { AiOutlineClose } from 'react-icons/ai';
 
 export default function Navigation() {
+
+  const [clicked, setClicked] = useState(false);
 
   return (
     <nav className="NavbarItems">
       <h1 className="navbar-logo">React</h1>
-      <div className="menu-icon"></div>
-      <ul>
+      <div className="menu-icon" onClick={() => setClicked((clicked) => !clicked)}>
+      {clicked ? <GiHamburgerMenu /> : <AiOutlineClose />}
+      </div>
+      <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
