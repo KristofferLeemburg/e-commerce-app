@@ -47,7 +47,7 @@
     background-color: white;
     width: 300px;
     height: 300px;
-    margin-top: 20px;
+    margin-top: 120px;
     margin-left: 80px;
     margin-right: 40px;
     box-shadow: 5px 6px #ccc;
@@ -71,7 +71,7 @@
     background-color: white;
     width: 300px;
     height: 300px;
-    margin-top: 20px;
+    margin-top: 120px;
     margin-left: 40px;
     margin-right: 40px;
     box-shadow: 5px 6px #ccc;
@@ -96,7 +96,7 @@
     background-color: white;
     width: 300px;
     height: 300px;
-    margin-top: 20px;
+    margin-top: 120px;
     margin-left: 40px;
     margin-right: 80px;
     box-shadow: 5px 6px #ccc;
@@ -116,9 +116,14 @@
         color: rgb(0, 126, 90);
     }
 }
-// .shanon{
-//     margin-top: 80px;
-// }
+.shanon{
+    margin-top: 83px;
+}
+.icon{
+    position: relative;
+    top: 710px;
+    left: -40px;
+}
 
 @media screen and (max-width: 960px) {
     .section-container {
@@ -133,7 +138,7 @@
         }
     }
     .section-three-container {
-        height: 1200px;
+        height: 1010px;
         flex-direction: column;
         display: flex;
         justify-content: flex-start;
@@ -146,6 +151,7 @@
     .text-box-middle {
         margin-top: 10px;
         margin-left: 80px;
+        
     }
     .text-box-right {
         margin-top: 10px;

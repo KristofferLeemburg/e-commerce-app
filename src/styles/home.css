@@ -71,7 +71,7 @@
   background-color: white;
   width: 300px;
   height: 300px;
-  margin-top: 20px;
+  margin-top: 120px;
   margin-left: 80px;
   margin-right: 40px;
   -webkit-box-shadow: 5px 6px #ccc;
@@ -100,7 +100,7 @@
   background-color: white;
   width: 300px;
   height: 300px;
-  margin-top: 20px;
+  margin-top: 120px;
   margin-left: 40px;
   margin-right: 40px;
   -webkit-box-shadow: 5px 6px #ccc;
@@ -129,7 +129,7 @@
   background-color: white;
   width: 300px;
   height: 300px;
-  margin-top: 20px;
+  margin-top: 120px;
   margin-left: 40px;
   margin-right: 80px;
   -webkit-box-shadow: 5px 6px #ccc;
@@ -154,6 +154,16 @@
   color: #007e5a;
 }
 
+.shanon {
+  margin-top: 83px;
+}
+
+.icon {
+  position: relative;
+  top: 710px;
+  left: -40px;
+}
+
 @media screen and (max-width: 960px) {
   .section-container {
     -webkit-box-orient: vertical;
@@ -170,7 +180,7 @@
     margin-left: 0px;
   }
   .section-three-container {
-    height: 1200px;
+    height: 1010px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
