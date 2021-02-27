@@ -5,47 +5,45 @@
         max-width: 100vw;
     }
 }
-.section-one-container{
-   
+.section-one-container {
     background-color: #f2f2f2;
     color: black;
     width: 100vw;
-    height: 400px;
+    height: 750px;
     display: flex;
     flex-direction: row;
 }
 
-.section-container{
-    
-    background-color: #4A9892;
+.section-container {
+    background-color: #4a9892;
     color: white;
     width: 100vw;
-    height: 500px;
+    height: 250px;
     display: flex;
     flex-direction: row;
 
-    .section1{
-        font-family: 'Dosis', sans-serif;
+    .section1 {
+        font-family: "Dosis", sans-serif;
         font-size: 30px;
         padding: 40px;
         margin-left: 30px;
     }
-    .section2{
-        font-size: 24px; 
+    .section2 {
+        font-size: 24px;
         margin-left: 30px;
         padding: 40px;
     }
 }
-.section-three-container{
+.section-three-container {
     background-color: #f2f2f2;
     color: white;
     width: 100vw;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
-.text-box-left{
+.text-box-left {
     background-color: white;
     width: 300px;
     height: 300px;
@@ -53,23 +51,23 @@
     margin-left: 80px;
     margin-right: 40px;
     box-shadow: 5px 6px #ccc;
-    h4{
+    h4 {
         color: rgb(0, 126, 90);
         margin-top: 10px;
         margin-left: 5px;
         margin-bottom: 15px;
     }
-    p{
-        color: black;  
+    p {
+        color: black;
         margin-left: 5px;
-        margin-bottom: 15px;  
+        margin-bottom: 15px;
     }
-    h6{
+    h6 {
         margin-left: 5px;
         color: rgb(0, 126, 90);
     }
 }
-.text-box-middle{
+.text-box-middle {
     background-color: white;
     width: 300px;
     height: 300px;
@@ -77,24 +75,24 @@
     margin-left: 40px;
     margin-right: 40px;
     box-shadow: 5px 6px #ccc;
-    h4{
+    h4 {
         color: rgb(0, 126, 90);
         margin-top: 10px;
         margin-left: 5px;
         margin-bottom: 15px;
     }
-    p{
+    p {
         margin-left: 5px;
-        color: black;   
-        margin-bottom: 15px; 
+        color: black;
+        margin-bottom: 15px;
     }
-    h6{
+    h6 {
         margin-left: 5px;
         color: rgb(0, 126, 90);
     }
-} 
+}
 
-.text-box-right{
+.text-box-right {
     background-color: white;
     width: 300px;
     height: 300px;
@@ -102,40 +100,62 @@
     margin-left: 40px;
     margin-right: 80px;
     box-shadow: 5px 6px #ccc;
-    h4{
+    h4 {
         color: rgb(0, 126, 90);
         margin-top: 10px;
         margin-left: 5px;
         margin-bottom: 15px;
     }
-    p{
+    p {
         margin-left: 5px;
-        color: black;   
-        margin-bottom: 15px; 
+        color: black;
+        margin-bottom: 15px;
     }
-    h6{
+    h6 {
         margin-left: 5px;
         color: rgb(0, 126, 90);
     }
 }
-.shanon{
-    margin-top: 80px;
-}
+// .shanon{
+//     margin-top: 80px;
+// }
 
-@media screen and (max-width:960px){
-    .section-container{
+@media screen and (max-width: 960px) {
+    .section-container {
         flex-direction: column;
-        .section1{
+        .section1 {
             padding: 20px;
             margin-left: 0px;
         }
-        .section2{
+        .section2 {
             padding: 20px;
             margin-left: 0px;
         }
     }
-    .section-three-container{
-        height: 1000px;
+    .section-three-container {
+        height: 1200px;
         flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    .text-box-left {
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .text-box-middle {
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    .text-box-right {
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .section-one-container {
+        height: 300px;
+    }
+    .section-container {
+        height: 350px;
     }
 }
