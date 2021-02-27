@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navigation from './components/navigation';
+import "./styles/index.css";
+import Navigation from './components/navbar/navigation';
 
 
 ReactDOM.render(
