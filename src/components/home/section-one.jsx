@@ -8,15 +8,15 @@ import imgGirl from "../../images/Shannon-Wilkinson-3.png"
 function App() {
   let app = useRef(null)
   let images = useRef(null)
-  let tl = new TimelineLite({ delay: .8});
+  let tl = new TimelineLite({ delay: .6});
   
   useEffect(() => {
 
     const girlImage = images.firstElementChild;    
     TweenMax.to(app, 0, {css: {visibility: 'visible'}})
 
-    tl.from(girlImage, 1.2, {y: 1280, ease: Power3.easeOut},'Start')
-    .from(girlImage.firstElementChild, 2, {scale: 1.6, ease: Power3.easeOut}, .2)
+    tl.from(girlImage, 1, {x: 2080, ease: Power3.easeOut},'Start')
+    .from(girlImage.firstElementChild, 2, {scale: 1, ease: Power3.easeOut}, .5)
   }, [tl])
 
 
