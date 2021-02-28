@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa098bb1.chunk.css",
+    "main.js": "/static/js/main.0d5f4da3.chunk.js",
+    "main.js.map": "/static/js/main.0d5f4da3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a7bf8c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a7bf8c1.js.map",
+    "static/js/2.a0d769ed.chunk.js": "/static/js/2.a0d769ed.chunk.js",
+    "static/js/2.a0d769ed.chunk.js.map": "/static/js/2.a0d769ed.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fa098bb1.chunk.css.map": "/static/css/main.fa098bb1.chunk.css.map",
+    "static/js/2.a0d769ed.chunk.js.LICENSE.txt": "/static/js/2.a0d769ed.chunk.js.LICENSE.txt",
+    "static/media/Shannon-Wilkinson-3.53860424.png": "/static/media/Shannon-Wilkinson-3.53860424.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a7bf8c1.js",
+    "static/js/2.a0d769ed.chunk.js",
+    "static/css/main.fa098bb1.chunk.css",
+    "static/js/main.0d5f4da3.chunk.js"
+  ]
+}
