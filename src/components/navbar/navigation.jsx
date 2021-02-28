@@ -34,7 +34,7 @@ export default function Navigation() {
       <h1 className="navbar-logo" style={{
       color:
        status === "top" ? "black" : "white"
-    }}>React</h1>
+    }}>Lifestylecoach</h1>
       <IconContext.Provider
       value={{ color: 'white', size: '20px' }}
     >
