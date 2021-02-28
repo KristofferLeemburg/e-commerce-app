@@ -1,0 +1,22 @@
+.contactform {
+  position: relative;
+  top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactform p {
+  font-size: 30px;
+}
+
+.contactform li {
+  list-style: none;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -5,7 +5,7 @@ import {TimelineLite, Power3} from 'gsap';
 
 import imgGirl from "../../images/Shannon-Wilkinson-3.png"
 
-function App() {
+export default function App() {
 
   let images = useRef(null)
   let tl
@@ -42,4 +42,3 @@ function App() {
   );
 }
 
-export default App;
