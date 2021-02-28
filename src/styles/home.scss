@@ -18,20 +18,22 @@
     background-color: #4a9892;
     color: white;
     width: 100vw;
-    height: 250px;
+    height: 450px;
     display: flex;
     flex-direction: row;
 
     .section1 {
         font-family: "Dosis", sans-serif;
-        font-size: 30px;
-        padding: 40px;
+        font-size: 20px;
+        min-width: 200px;
         margin-left: 30px;
+        margin-top: 100px;
     }
     .section2 {
         font-size: 24px;
+        margin-top: 100px;
         margin-left: 30px;
-        padding: 40px;
+        // padding: 40px;
     }
 }
 .section-three-container {
@@ -162,7 +164,15 @@
         height: 300px;
     }
     .section-container {
-        height: 350px;
+        margin-top: 300px;
+        height: 850px;
+        .section1 {
+            font-family: "Dosis", sans-serif;
+            font-size: 20px;
+            min-width: 200px;
+            margin-left: 30px;
+            margin-top: 100px;
+        }
     }
     .shanon{
         width: 100vw;
