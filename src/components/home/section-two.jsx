@@ -8,15 +8,17 @@ export default function Section() {
             <div className="section-container">
                 <p className="section1">Rust en Balans in je leven,
                 <ul>
-                    <li>Heb jij weinig energie</li>
-                    <li>Zit je niet goed in je vel</li>
-                    <li>Voel jij je onrustig</li>
-                    <li>Wil je eigenlijk iets anders, maar wat?</li>
-                </ul>
+                        <li>Heb jij weinig energie</li>
+                        <li>Zit je niet goed in je vel</li>
+                        <li>Voel jij je onrustig</li>
+                        <li>Wil je eigenlijk iets anders, maar wat?</li>
+                    </ul>
                 </p>
-                <p className="section2">Ik ben ontzettend dankbaar dat jij hier terecht bent gekomen! Als lifestylecoach, die tevens een echte ervaringsdeskundige is, begrijp ik als geen ander waar je tegenaan loopt: “been there, done That”!!
-                Maar wat als ik je je vertel dat jij net als ik beschik over onbegrensde mogelijkheden om jou leven in eigen handen te nemen? Dat jij echt het leven kunt leven zoals jij dat wilt! En ik wil graag samen met jou die weg uitstippelen.
+                <div className="section2"><p>Herken jij je hierin? Je hebt weinig energie en zit niet lekker in je vel. Je voelt aan alles dat er iets moet veranderen om balans en rust te ervaren.  Wi jij het leven te leiden zoals jij dat voor ogen hebt. Als coach kan ik je hierbij helpen. Ben jij er klaar voor om samen aan de slag te gaan?
                 </p>
+                <button>Ja, ik wil aan de slag</button>
+                </div>
+                
             </div>
         </div>
     );
