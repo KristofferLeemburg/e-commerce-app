@@ -211,21 +211,27 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .text-box-left {
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .text-box-middle {
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .text-box-right {
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .section-one-container {
     height: 300px;
