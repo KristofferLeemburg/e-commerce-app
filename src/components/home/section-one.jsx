@@ -31,8 +31,9 @@ function App() {
               <div className="hero-image-text">
                 <p>
                 Ik ben ontzettend dankbaar dat jij hier terecht bent gekomen! Als lifestylecoach, die tevens een echte ervaringsdeskundige is, begrijp ik als geen ander waar je tegenaan loopt: “been there, done That”!!
-                Maar wat als ik je je vertel dat jij net als ik beschikt over onbegrensde mogelijkheden om jou leven in eigen handen te nemen? Dat jij echt het leven kunt leven zoals jij dat wilt! En ik wil graag samen met jou die weg uitstippelen.
+                Maar wat als ik je vertel dat jij net als ik beschikt over onbegrensde mogelijkheden om jou leven in eigen handen te nemen? Dat jij echt het leven kunt leven zoals jij dat wilt! En ik wil graag samen met jou die weg uitstippelen.
                 </p>
+                <h3 className="Naam">Patricia</h3>
               </div>
           </div>
         </div>
