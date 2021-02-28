@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/contact.css";
 import Navigation from '../components/navbar/navigation';
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
-import { AiOutlineLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
+
 
 export default function Contact() {
 
