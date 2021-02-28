@@ -16,7 +16,7 @@ function App() {
 
     tl.from(girlImage, 1, {x: 2080, ease: Power3.easeOut},'Start')
     .from(girlImage.firstElementChild, 2, {ease: Power3.easeOut}, .5)
-  }, [tl])
+  }, [])
 
 
 
