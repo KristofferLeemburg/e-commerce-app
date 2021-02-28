@@ -8,15 +8,16 @@ import imgGirl from "../../images/Shannon-Wilkinson-3.png"
 function App() {
 
   let images = useRef(null)
-  let tl = new TimelineLite({ delay: .6});
+  let tl
   
   useEffect(() => {
-
+    let tl = new TimelineLite({ delay: .6});
     const girlImage = images.firstElementChild;    
 
     tl.from(girlImage, 1, {x: 2080, ease: Power3.easeOut},'Start')
     .from(girlImage.firstElementChild, 2, {ease: Power3.easeOut}, .5)
-  })
+  }, [tl])
+
 
 
   return (
