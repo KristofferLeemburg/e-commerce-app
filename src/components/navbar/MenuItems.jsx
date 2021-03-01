@@ -6,12 +6,12 @@ export const MenuItems =  [
     },
     {
         title: 'Over mij',
-        url:'#',
+        url:'overmij',
         name: 'nav-link'
     },
     {
         title: 'Pakketen',
-        url:'#',
+        url:'/pakketen',
         name: 'nav-link'
     },
     {
